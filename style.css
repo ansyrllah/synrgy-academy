@@ -3,12 +3,12 @@
     /* $blue: #0d28a6; */
 }
 
-/* Block Element Modifiers */
+/* NAVBAR */
+.navbar {
+    background-color: #f1f3ff;
+}
 
-/* .testimonial-item {
-    max-width: fit-content;
-} */
-
+/* HERO */
 .hero {
     padding-left: 70px;
     padding-right: 0;
@@ -17,24 +17,12 @@
     background-color: #f1f3ff;
 }
 
-.navbar {
-    background-color: #f1f3ff;
-}
+/* TESTIMONIALS */
 
 .testimonial--img_small {
     width: 80px !important;
-}
-
-/* external css: flickity.css */
-
-* {
     box-sizing: border-box;
 }
-
-body {
-    font-family: sans-serif;
-}
-
 .testimonials {
     margin-bottom: 100px;
 }
@@ -72,12 +60,24 @@ body {
     cursor: pointer;
 }
 
-/* cell number */
-/* .carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-} */
+/* FAQ */
+#faq {
+    margin-top: 100px;
+    border-radius: 13px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid black !important;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+
+/* FOOTER */
+.footer .list-group-item {
+    border: 0px solid black !important;
+    border-radius: 4px;
+    overflow: hidden;
+}

@@ -172,7 +172,7 @@
                 </div>
                 <div class="carousel-cell d-flex flex-row align-items-center p-5">
                     <div class="d-inline me-5">
-                        <img src="img/img_photo.png" class="d-inline w-100 testimonial--img_small" alt="..." />
+                        <img src="img/img_photo-1.png" class="d-inline w-100 testimonial--img_small" alt="..." />
                     </div>
                     <div class="">
                         <img src="img/icon_rate.svg" class="mb-2" alt="icon_rate" />
@@ -198,7 +198,7 @@
                 </div>
                 <div class="carousel-cell d-flex flex-row align-items-center p-5">
                     <div class="d-inline me-5">
-                        <img src="img/img_photo.png" class="d-inline w-100 testimonial--img_small" alt="..." />
+                        <img src="img/img_photo-1.png" class="d-inline w-100 testimonial--img_small" alt="..." />
                     </div>
                     <div class="">
                         <img src="img/icon_rate.svg" class="mb-2" alt="icon_rate" />
@@ -224,7 +224,7 @@
                 </div>
                 <div class="carousel-cell d-flex flex-row align-items-center p-5">
                     <div class="d-inline me-5">
-                        <img src="img/img_photo.png" class="d-inline w-100 testimonial--img_small" alt="..." />
+                        <img src="img/img_photo-1.png" class="d-inline w-100 testimonial--img_small" alt="..." />
                     </div>
                     <div class="">
                         <img src="img/icon_rate.svg" class="mb-2" alt="icon_rate" />
@@ -241,10 +241,10 @@
         <!-- END TESTIMONIAL -->
 
         <!-- START CTA -->
-        <div class="container bg-primary mb-5 p-5">
+        <div class="container rounded-4 bg-primary mb-5 p-5">
             <div class="row text-center">
                 <div class="col text-white">
-                    <h2>Sewa Mobil di Bandung Sekarang</h2>
+                    <h1>Sewa Mobil di Bandung Sekarang</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <button type="button" class="btn btn-success auto">Mulai Sewa Mobil</button>
                 </div>
@@ -253,14 +253,14 @@
         <!-- END CTA -->
 
         <!-- START FAQ -->
-        <div id="faq" class="container mb-5">
-            <div class="row">
+        <div id="faq" class="container my-5 pt-5">
+            <div class="row pt-5">
                 <div class="col">
                     <h3>Frequenly Asked Question</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div class="col">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion gx-5" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Apa saja syarat yang dibutuhkan?</button>
@@ -303,9 +303,9 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Apakah Ada biaya antar-jemput?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Apakah Ada biaya antar-jemput?</button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the
                                     overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
@@ -315,11 +315,9 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Bagaimana jika terjadi kecelakaan?
-                                </button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Bagaimana jika terjadi kecelakaan?</button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the
                                     overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
@@ -334,8 +332,8 @@
         <!-- END FAQ -->
 
         <!-- START FOOTER -->
-        <div class="container border-top mt-5">
-            <div class="row">
+        <div class="footer container my-5">
+            <div class="row py-5">
                 <div class="col-3">
                     <ul class="list-group-flush list-unstyled">
                         <li>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</li>
@@ -345,28 +343,38 @@
                 </div>
                 <div class="col-2">
                     <ul class="list-group-flush list-unstyled">
-                        <li>Our Services</li>
-                        <li>Why Us</li>
-                        <li>Testimonials</li>
-                        <li>FAQ</li>
+                        <li><a href="#services" class="text-body">Our Services</a></li>
+                        <li><a href="#why-us" class="text-body">Why Us</a></li>
+                        <li><a href="#testimonials" class="text-body">Testimonials</a></li>
+                        <li><a href="#faq" class="text-body">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-4">
                     <p>Connect with us</p>
                     <ul class="list-group list-group-flush list-group-horizontal">
-                        <li class="list-group-item"><img src="img/icon_instagram.svg" alt="instagram" /></li>
-                        <li class="list-group-item"><img src="img/icon_facebook.svg" alt="facebook" /></li>
-                        <li class="list-group-item"><img src="img/icon_twitter.svg" alt="twitter" /></li>
-                        <li class="list-group-item"><img src="img/icon_mail.svg" alt="mail" /></li>
-                        <li class="list-group-item"><img src="img/icon_twitch.svg" alt="twitch" /></li>
+                        <li class="list-group-item">
+                            <a href=""><img src="img/icon_instagram.svg" alt="instagram" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href=""><img src="img/icon_facebook.svg" alt="facebook" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href=""><img src="img/icon_twitter.svg" alt="twitter" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href=""><img src="img/icon_mail.svg" alt="mail" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href=""><img src="img/icon_twitch.svg" alt="twitch" /></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-2">
                     <ul class="list-group-flush list-unstyled">
-                        <li>Our Services</li>
-                        <li>Why Us</li>
-                        <li>Testimonials</li>
-                        <li>FAQ</li>
+                        <li>Copyright Binar 2024</li>
+                        <li>
+                            <a href="#"> <img src="img/logo.png" alt="brand logo" /></a>
+                        </li>
                     </ul>
                 </div>
             </div>
